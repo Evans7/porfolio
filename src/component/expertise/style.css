@@ -1,0 +1,7 @@
+.imageContainer
+{
+    width: 350px;
+    height:350px;
+    overflow: hidden;
+    position:absolute;
+}

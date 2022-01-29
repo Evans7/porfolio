@@ -1,0 +1,14 @@
+.skillcontainer{
+    width:80px;
+    height: 80px;
+    overflow: hidden;
+}
+.skilldespcontainer{
+
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}

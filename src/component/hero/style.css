@@ -1,0 +1,7 @@
+.meImg{
+
+    overflow: hidden;
+    max-width: 100;
+    object-fit: contain;
+    padding-left: 50%;
+}
