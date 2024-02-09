@@ -1,5 +1,5 @@
 import React from 'react'
-import me from '../../assets/me.png'
+import me from '../../assets/me2-c.png'
 import Button from '../ui/button'
 import DownloadButton from '../ui/downloadButton'
 const App=(props)=> {
@@ -20,7 +20,8 @@ const App=(props)=> {
     </div>
     </div>
     <div data-aos="fade-right" className='meImg'>
-        <img src={me}></img>
+        <img className='hero-image' style={{
+            width: "80%" }} src={me}></img>
     </div>
     </div>
 </div>

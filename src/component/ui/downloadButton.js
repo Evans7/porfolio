@@ -3,7 +3,7 @@ import { colors } from '../../style'
 const DownloadButton=(props)=> {
 
   return(
-  <a href='/Resume/AnoopA-Resume.pdf'
+  <a href='/Resume/RESUME-2024.pdf'
   download style={{boxSizing:'border-box',
   padding:'10px 20px', 
   background:props.inverse?"transparent":colors.primaryColor,

@@ -11,7 +11,7 @@ const expertise=(props)=> {
   const skills=[{
       skill:"Web Development",
       desc:"",
-      percentage:"70",
+      percentage:"90",
       textColor:"#F98404",
       pathColor:"#185ADB"
     }]

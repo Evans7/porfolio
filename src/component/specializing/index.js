@@ -7,62 +7,69 @@ import Skill from '../ui/skill';
 const Specializing=(props)=> {
   const skills=[
     {
-      skill:"HTML/CSS",
+      skill:"Spring boot and J2EE",
       desc:"2+ years of work experience",
-      percentage:"80",
-      textColor:"#FFC947",
-      pathColor:"#185ADB"
-    },
-    {
-      skill:"JavaScript",
-      desc:"2+ years of work experience",
-      percentage:"80",
-      textColor:"#7952B3",
-      pathColor:"#FFC107"
-    },
-    {
-      skill:"React",
-      desc:"Worked on few personal projects",
-      percentage:"60",
-      textColor:"#480032",
-      pathColor:"#005792"
-    },
-    {
-      skill:"jQuery",
-      desc:" 1+ years of work experience",
-      percentage:"70",
-      textColor:"#FFC947",
-      pathColor:"#185ADB"
-    },
-    {
-      skill:"MVC(Java/Groovy)",
-      desc:"2+ years of work experience",
-      percentage:"70",
+      percentage:"90",
       textColor:"#171010",
       pathColor:"#4F0E0E"
     },
     {
-      skill:"MySQL",
+      skill:"HTML/CSS",
       desc:"2+ years of work experience",
-      percentage:"80",
+      percentage:"95",
+      textColor:"#FFC947",
+      pathColor:"#185ADB"
+    },
+    {
+      skill:"Native JS and jQuery",
+      desc:"2+ years of work experience",
+      percentage:"95",
+      textColor:"#7952B3",
+      pathColor:"#FFC107"
+    },
+    {
+      skill:"React/Angular",
+      desc:"Worked on few personal projects",
+      percentage:"75",
+      textColor:"#480032",
+      pathColor:"#005792"
+    },
+    {
+      skill:"iOS App Development",
+      desc:"Few applications created",
+      percentage:"70",
+      textColor:"#FFC947",
+      pathColor:"#185ADB"
+    },
+    {
+      skill:"MySQL/MSSQL/PSQL/MongoDB",
+      desc:"2+ years of work experience",
+      percentage:"90",
       textColor:"#D83A56",
       pathColor:"#DA0037"
     },
     {
-      skill:"Python(Flask/Django)",
+      skill:"Python(Flask/Django/ML)",
       desc:"Worked on few personal projects",
-      percentage:"40",
+      percentage:"80",
+      textColor:"#9D0191",
+      pathColor:"#120078"
+    },
+    {
+      skill:"NodeJs",
+      desc:"Worked on few personal projects",
+      percentage:"80",
       textColor:"#9D0191",
       pathColor:"#120078"
     }
   ];
   return(
 <div className="container">
-    <Card style={{padding:"60px"}}>
+    <Card style={{padding:"40px"}}>
     <Smallheadline text="Things i do"/>
     <Mediumheadline text="Expertise in"/>
 
-    <div data-aos="fade-up" className="flexRow wrap justify-sb" style={{padding:"20px"}}>
+    <div data-aos="fade-up" className="flexRow wrap justify-sb" style={{padding:"10px"}}>
     {skills.map((skill,index)=>(
       <Skill 
           key={index}
