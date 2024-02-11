@@ -11,55 +11,55 @@ const Specializing=(props)=> {
       desc:"2+ years of work experience",
       percentage:"90",
       textColor:"#171010",
-      pathColor:"#4F0E0E"
-    },
-    {
-      skill:"HTML/CSS",
-      desc:"2+ years of work experience",
-      percentage:"95",
-      textColor:"#FFC947",
-      pathColor:"#185ADB"
-    },
-    {
-      skill:"Native JS and jQuery",
-      desc:"2+ years of work experience",
-      percentage:"95",
-      textColor:"#7952B3",
-      pathColor:"#FFC107"
-    },
-    {
-      skill:"React/Angular",
-      desc:"Worked on few personal projects",
-      percentage:"75",
-      textColor:"#480032",
-      pathColor:"#005792"
-    },
-    {
-      skill:"iOS App Development",
-      desc:"Few applications created",
-      percentage:"70",
-      textColor:"#FFC947",
-      pathColor:"#185ADB"
+      pathColor:"#3A4162"
     },
     {
       skill:"MySQL/MSSQL/PSQL/MongoDB",
       desc:"2+ years of work experience",
       percentage:"90",
-      textColor:"#D83A56",
-      pathColor:"#DA0037"
+      textColor:"#171010",
+      pathColor:"#336E83"
     },
     {
-      skill:"Python(Flask/Django/ML)",
+      skill:"Native JS and jQuery",
+      desc:"2+ years of work experience",
+      percentage:"95",
+      textColor:"#171010",
+      pathColor:"#E52156"
+    },
+    {
+      skill:"React/Angular",
       desc:"Worked on few personal projects",
-      percentage:"80",
-      textColor:"#9D0191",
-      pathColor:"#120078"
+      percentage:"75",
+      textColor:"#171010",
+      pathColor:"#F7CE72"
+    },
+    {
+      skill:"iOS App Development",
+      desc:"Few applications created",
+      percentage:"70",
+      textColor:"#171010",
+      pathColor:"#F77269"
     },
     {
       skill:"NodeJs",
       desc:"Worked on few personal projects",
       percentage:"80",
-      textColor:"#9D0191",
+      textColor:"#171010",
+      pathColor:"#D04F45"
+    },
+    {
+      skill:"HTML/CSS",
+      desc:"2+ years of work experience",
+      percentage:"95",
+      textColor:"#171010",
+      pathColor:"#185ADB"
+    },
+    {
+      skill:"Python(Flask/Django/ML)",
+      desc:"Worked on few personal projects",
+      percentage:"80",
+      textColor:"#171010",
       pathColor:"#120078"
     }
   ];
