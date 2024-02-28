@@ -20,7 +20,7 @@ const Projects=(props)=> {
        <div className="flexRow justify-sb" style={{marginTop: "10px",marginBottom:"10px",padding:"20px"}}>
            <div className="mauto">
    <p className="mtb font-20">Auth/Authorization RESTful API's</p>
-   <p className="wrap mtb font-14" style={{color:"grey"}}>Application made using flask which consists of jason web token authentication and role based API access along with CRUD operations.</p>
+   <p className="wrap mtb font-14" style={{color:"grey"}}>Application made using flask which consists of JSON web token authentication and role based API access along with CRUD operations.</p>
    <a href="https://github.com/Evans7/AuthAccessAPIS">
         <img src={Github} style={{width:"30px", height:"30px",borderRadius:"50%"}} alt={""}></img>
     </a>
@@ -29,6 +29,7 @@ const Projects=(props)=> {
        <img className="projectImg" src={AuthAccessAPI} ></img>
    </div>
    </div>
+   
    </div>
     </Card>
 </div>
